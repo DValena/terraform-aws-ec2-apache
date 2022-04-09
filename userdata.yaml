@@ -1,0 +1,8 @@
+#cloud config - commands run in ec2 instance - starting Apache - nefunguje mi to
+packages:
+  - httpd
+runcmd:
+  - sudo yum install httpd -y
+  - touch my_hahafile_created
+  - sudo systemctl start httpd
+  - sudo systemctl enable httpd
