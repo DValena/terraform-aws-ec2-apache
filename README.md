@@ -3,6 +3,7 @@ Not intended for production use - only for testing purposes
 
 Example of use:
 
+```hcl
 provider "aws" {
   region = "eu-west-1"                          #fill your region
 }
@@ -15,3 +16,4 @@ module "apache" {
   instance_type   = "t2.micro"
   server_name     = "Apache Example Server"
 }
+```
