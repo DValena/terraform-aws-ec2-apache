@@ -11,7 +11,7 @@ provider "aws" {
 module "apache" {
   source          = ".//module_ec2_apache"
   vpc_id          = "vpc-0310f492222222222"
-  my_ip_with_cidr = "88.103.235.238/32"         #fill your own public ip - because of firewall security group
+  my_ip_with_cidr = "88.103.235.238/32"         #your own public ip - because of firewall to ssh
   key_pair_name   = "myPair01"
   instance_type   = "t2.micro"
   server_name     = "Apache Example Server"
