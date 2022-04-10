@@ -7,5 +7,5 @@ output "apache_public_ip" {
 #}
 
 output "apache_security_group_id" {
-  value = aws_security_group.sg_my_server.id  
+  value = aws_security_group.sg_my_server.id
 }
