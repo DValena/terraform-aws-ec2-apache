@@ -1,5 +1,7 @@
 Terraform Module to provision EC2 instance with running Apache
-Not intended for production use - only for testing purposes
+Not intended for production use
+It is based upon Andy Brown Terraform certification course:
+  https://www.youtube.com/watch?v=V4waklkBC38 
 
 Example of use:
 
